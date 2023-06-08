@@ -1,0 +1,13 @@
+.footer-section {
+  display: flex !important;
+  align-items: center !important;
+  padding-top: 100px !important;
+  color: var(--slate) !important;
+}
+
+.footer-text {
+  font-size: 16px !important;
+  padding-bottom: 40px !important;
+  text-align: center !important;
+  width: 100% !important;
+}

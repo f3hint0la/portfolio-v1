@@ -1,0 +1,102 @@
+/* .project-section {
+  padding-top: 30px !important;
+} */
+
+.project-content {
+  color: var(--slate) !important;
+  /* padding-left: 45px !important; */
+  text-align: left;
+  /* padding: 30px 90px !important; */
+  padding: 30px 0 !important;
+}
+
+.project-heading {
+  color: var(--light-slate) !important;
+  font-size: 37px !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+  padding-left: 46px !important;
+}
+
+.project-heading strong {
+  color: var(--green);
+}
+
+.project-content p {
+  font-size: 17px !important;
+  padding-left: 45px !important;
+}
+
+/* bold - light-slate */
+
+.project-card {
+  padding-top: 30px !important;
+  padding-bottom: 40px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+  min-height: 50vh !important;
+  padding-left: 65px !important;
+}
+
+.project-card-view {
+  box-shadow: 0 4px 5px 3px rgba(53, 136, 94, 0.459) !important;
+  color: var(--slate) !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+}
+
+.card-title {
+  color: var(--light-slate);
+  margin-left: 40px !important;
+  font-size: 25px !important;
+}
+
+.card-footer {
+  font-size: 15px !important;
+  color: var(--green) !important;
+  margin-left: 28px !important;
+}
+
+.project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: var(--light-green) !important;
+}
+
+.card-img-top {
+  padding: 20px !important;
+  opacity: 0.8 !important;
+  border-radius: 10px !important;
+  width: 350px !important;
+  padding-top: 30px !important;
+  padding-left: 55px !important;
+}
+
+.card-button {
+  color: #fff !important;
+  background-color: var(--light-green) !important;
+  border-color: var(--green) !important;
+  margin: 15px !important;
+  padding: 10px 30px !important;
+}
+
+.card-button:hover {
+  color: #fff !important;
+  transform: translate(-2px) !important;
+}
+
+.card-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* @media (max-width: 767px) {
+  .card-img-top {
+    border-radius: 10px !important;
+    width: 380px !important;
+    padding-left: 100px !important;
+  }
+} */

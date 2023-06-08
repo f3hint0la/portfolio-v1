@@ -1,0 +1,99 @@
+.home-section {
+  padding-bottom: 30px !important;
+  /* padding-top: 30px !important; */
+}
+
+.home-content {
+  padding: 80px 0 32px !important;
+  color: var(--slate) !important;
+  text-align: left;
+}
+
+.home-header {
+  padding-top: 80px !important;
+}
+
+.heading {
+  font-size: 30px !important;
+  padding-left: 50px !important;
+  color: var(--light-slate) !important;
+}
+
+.heading-name {
+  font-size: 40px !important;
+  padding-left: 47px !important;
+}
+
+.main-name {
+  color: var(--green);
+}
+
+.Typewriter__wrapper {
+  font-size: 35px !important;
+  color: var(--green) !important;
+  font-weight: 600 !important;
+  padding-left: 13px !important;
+}
+.Typewriter__cursor {
+  font-size: 38px !important;
+  color: var(--green) !important;
+}
+
+.home-description {
+  padding-bottom: 20px !important;
+  text-align: center;
+  padding-left: 50px !important;
+  color: var(--slate) !important;
+}
+
+.home-body {
+  /* padding-top: 50px; */
+  font-size: 18px !important;
+  text-align: left;
+  padding-left: 13px !important;
+}
+
+.email {
+  font-size: 22px !important;
+  padding-left: 65px !important;
+  cursor: pointer !important;
+}
+
+.email-icon {
+  color: var(--green) !important;
+  margin-right: 15px !important;
+  font-size: 22px !important;
+  cursor: pointer !important;
+}
+
+.email-btn {
+  font-weight: bolder !important;
+  line-height: 23px !important;
+  background-color: transparent !important;
+  border-color: var(--green) !important;
+  color: var(--green) !important;
+  padding: 20px !important;
+  text-align: center !important;
+  cursor: pointer !important;
+}
+
+.email-btn:hover {
+  background-color: var(--light-green) !important;
+  transform: translate(-2px) !important;
+}
+
+@media (max-width: 767px) {
+  .home-body {
+    font-size: 17px !important;
+    padding-top: 20px !important;
+  }
+
+  .Typewriter__wrapper {
+    font-size: 25px !important;
+    font-weight: 500 !important;
+    position: absolute !important;
+  }
+  .Typewriter__cursor {
+    display: none !important;
+  }
+}
