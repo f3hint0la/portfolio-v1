@@ -11,9 +11,7 @@ const PCard = (props) => {
       <Card.Body>
         <AiFillFolderOpen style={{ fontSize: 35, position: "absolute" }} />
         <Card.Title className="card-title">{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
-        </Card.Text>
+        <Card.Text>{props.description}</Card.Text>
         <Card.Footer className="card-footer">{props.techStack}</Card.Footer>
         <Button className="card-button" href={props.githubLink} target="_blank">
           <AiOutlineGithub />

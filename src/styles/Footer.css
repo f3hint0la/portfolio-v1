@@ -1,6 +1,7 @@
 .footer-section {
   display: flex !important;
   align-items: center !important;
+  text-align: center !important;
   padding-top: 100px !important;
   color: var(--slate) !important;
 }
@@ -8,6 +9,26 @@
 .footer-text {
   font-size: 16px !important;
   padding-bottom: 40px !important;
-  text-align: center !important;
   width: 100% !important;
 }
+
+.contact-links {
+  display: flex !important;
+  flex-direction: row !important;
+  width: 100% !important;
+  padding-top: 45px !important;
+  padding: 5px !important;
+  justify-content: center !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--green) !important;
+  margin: 10px !important;
+}
+
+/* @media (max-width: 767px) {
+  .contact-links {
+    width: 70px !important;
+  }
+} */

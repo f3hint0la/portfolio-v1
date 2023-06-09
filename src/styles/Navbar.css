@@ -1,5 +1,5 @@
 .sticky {
-  background-color: var(--light-green);
+  background-color: var(--light-green) !important;
   transition: all 0.3s ease-out 0s !important;
   backdrop-filter: blur(15px) !important;
 }
@@ -128,7 +128,7 @@
   display: none !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .navbar {
     padding: 16px 32px !important;
     font-size: 22px !important;
