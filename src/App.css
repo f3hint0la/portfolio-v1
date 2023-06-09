@@ -8,6 +8,7 @@ html {
 
 .App {
   background-color: var(--navy);
+  background-color: #100c08 !important;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

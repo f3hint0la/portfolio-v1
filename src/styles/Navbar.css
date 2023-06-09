@@ -2,7 +2,6 @@
   background-color: var(--light-green);
   transition: all 0.3s ease-out 0s !important;
   backdrop-filter: blur(15px) !important;
-  /* height: 75px !important; */
 }
 
 .navbar {
@@ -133,6 +132,10 @@
   .navbar {
     padding: 16px 32px !important;
     font-size: 22px !important;
+  }
+
+  .sticky {
+    backdrop-filter: blur(15px) !important;
   }
 
   .nav-item {
