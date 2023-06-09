@@ -44,80 +44,60 @@ function Navigation() {
       fixed="top"
       className={navPosition ? "sticky" : "navbar"}
     >
-      <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          {"<fehintola />"}
-        </Navbar.Brand>
-        <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            updateExpanded(expand ? false : "expanded");
-          }}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </Navbar.Toggle>
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> home
-              </Nav.Link>
-            </Nav.Item>
+      {/* <Container> */}
+      <Navbar.Brand href="/" className="d-flex">
+        {"<fehintola />"}
+      </Navbar.Brand>
+      <Navbar.Toggle
+        aria-controls="responsive-navbar-nav"
+        onClick={() => {
+          updateExpanded(expand ? false : "expanded");
+        }}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </Navbar.Toggle>
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="ms-auto">
+          <Nav.Item>
+            <a href="/" onClick={() => updateExpanded(false)}>
+              <AiOutlineHome style={{ marginBottom: "2px" }} /> home
+            </a>
+          </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> about
-              </Nav.Link>
-            </Nav.Item>
+          <Nav.Item>
+            <a href="about" onClick={() => updateExpanded(false)}>
+              <AiOutlineUser style={{ marginBottom: "2px" }} /> about
+            </a>
+          </Nav.Item>
 
-            <Nav.Item className="project-link">
-              <a href="#projects" onClick={() => updateExpanded(false)}>
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                projects
-              </a>
-            </Nav.Item>
+          <Nav.Item>
+            <a href="projects" onClick={() => updateExpanded(false)}>
+              <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />{" "}
+              projects
+            </a>
+          </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> resume
-              </Nav.Link>
-            </Nav.Item>
+          <Nav.Item>
+            <a href="resume" onClick={() => updateExpanded(false)}>
+              <CgFileDocument style={{ marginBottom: "2px" }} /> resume
+            </a>
+          </Nav.Item>
 
-            {/* <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/contacts"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contacts
-              </Nav.Link>
-            </Nav.Item> */}
-
-            <Nav.Item className="github">
-              <Button
-                href="https://github.com/f3hint0la/portfolio"
-                target="_blank"
-                className="fork-btn"
-              >
-                <CgGitFork style={{ fontSize: "18px" }} />{" "}
-                <AiFillStar style={{ fontSize: "18px" }} />
-              </Button>
-            </Nav.Item>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
+          <Nav.Item className="button">
+            <Button
+              href="https://github.com/f3hint0la/portfolio-v1"
+              target="_blank"
+              className="github"
+            >
+              <CgGitFork style={{ fontSize: "18px" }} />{" "}
+              <AiFillStar style={{ fontSize: "18px" }} />
+            </Button>
+          </Nav.Item>
+        </Nav>
+      </Navbar.Collapse>
+      {/* </Container> */}
     </Navbar>
   );
 }

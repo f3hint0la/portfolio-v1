@@ -21,13 +21,14 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <div className="App">
         <Navbar />
         {/* <ScrollToTop /> */}
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/about" element={<About />}></Route>
-          <Route path="*" element={<Navigate to="/" />}></Route>
+          <Route path="about" element={<About />}></Route>
+          <Route path="projects" element={<Project />}></Route>
+          {/* <Route path="*" element={<Navigate to="/" />}></Route> */}
         </Routes>
         <Footer />
       </div>

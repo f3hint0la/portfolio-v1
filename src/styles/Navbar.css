@@ -2,13 +2,13 @@
   background-color: var(--light-green);
   transition: all 0.3s ease-out 0s !important;
   backdrop-filter: blur(15px) !important;
-  /* display: none !important; */
+  /* height: 75px !important; */
 }
 
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
-  padding: 5px 30px !important;
+  padding: 8px 30px !important;
   font-size: 19px !important;
 }
 
@@ -72,35 +72,17 @@
   color: var(--green) !important;
   font-size: 25px !important;
   font-weight: 500 !important;
-}
-
-.navbar-nav .nav-link {
-  color: var(--light-slate) !important;
-  padding-right: 16px !important;
-  padding-left: 16px !important;
-}
-
-.project-link {
-  padding-top: 14px !important;
-}
-
-.project-link a {
-  text-decoration: none;
-  color: var(--light-slate) !important;
-  font-weight: 400;
-  transition: all 0.3s ease-out 0s;
-}
-
-.nav-link {
-  padding: 13px 16px !important;
+  margin-left: 15px !important;
 }
 
 .navbar-nav .nav-item {
-  position: relative;
-  margin-left: 20px;
+  padding-right: 16px !important;
+  padding-left: 16px !important;
+  padding-top: 16px !important;
 }
 
 .navbar-nav .nav-item a {
+  color: var(--light-slate) !important;
   font-weight: 400;
   transition: all 0.3s ease-out 0s;
   position: relative;
@@ -126,26 +108,24 @@
   width: 100%;
 }
 
-.github {
+.button {
   font-size: 16px !important;
-  padding-top: 10px !important;
 }
 
-.fork-btn {
-  line-height: 23px !important;
+.github {
   background-color: transparent !important;
   border-color: var(--green) !important;
-  padding: 5px 20px !important;
+  padding: 6px 22px !important;
   vertical-align: middle !important;
   text-align: center !important;
 }
 
-.fork-btn:hover {
+.github:hover {
   transform: translateY(-2px) !important;
   background-color: var(--light-green) !important;
 }
 
-.fork-btn::after {
+.github::after {
   display: none !important;
 }
 
@@ -155,11 +135,7 @@
     font-size: 22px !important;
   }
 
-  .nav-link {
+  .nav-item {
     padding: 10px 16px !important;
-  }
-
-  .project-link {
-    margin-bottom: 10px !important;
   }
 }

@@ -1,15 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"); */
 
-/* @import url("https://fonts.googleapis.com/css2?family=Geologica:wght@400;500;600;700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@400;500;600;700&display=swap");
 
 body {
   margin: 0;
-  font-family: "Raleway", sans-serif !important;
-  /* font-family: "Geologica", sans-serif !important; */
-  background-color: var(--navy) !important;
-  background-color: #100c08 !important;
-  /* background-color: #000000 !important; */
-  /* background-color: #1b1b1b !important; */
+  /* font-family: "Raleway", sans-serif !important; */
+  font-family: "Geologica", sans-serif !important;
+  /* background-color: #100c08 !important; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;

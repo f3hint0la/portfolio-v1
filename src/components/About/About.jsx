@@ -5,7 +5,7 @@ import TechStack from "./TechStack";
 
 function About() {
   return (
-    <Container fluid className="about-section" id="/about">
+    <Container fluid className="about-section" id="about">
       <Container className="about-content">
         <Row>
           <Col md={7} className="about-header">
