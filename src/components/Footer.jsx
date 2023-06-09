@@ -15,7 +15,7 @@ function Footer() {
           <a href="https://github.com/f3hint0la">
             <AiOutlineGithub style={{ fontSize: 20 }} />
           </a>
-          <a href="mailto:fehintolakhumere@gmail.com">
+          <a href="https://www.linkedin.com/in/fehintola-a-a44119241">
             <AiFillLinkedin style={{ fontSize: 20 }} />
           </a>
         </div>

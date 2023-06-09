@@ -67,33 +67,22 @@ function Navigation() {
           </Nav.Item>
 
           <Nav.Item>
-            <a href="about" onClick={() => updateExpanded(false)}>
+            <a href="#about" onClick={() => updateExpanded(false)}>
               <AiOutlineUser style={{ marginBottom: "2px" }} /> about
             </a>
           </Nav.Item>
 
           <Nav.Item>
-            <a href="projects" onClick={() => updateExpanded(false)}>
+            <a href="#projects" onClick={() => updateExpanded(false)}>
               <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />{" "}
               projects
             </a>
           </Nav.Item>
 
           <Nav.Item>
-            <a href="resume" onClick={() => updateExpanded(false)}>
+            <a href="#resume" onClick={() => updateExpanded(false)}>
               <CgFileDocument style={{ marginBottom: "2px" }} /> resume
             </a>
-          </Nav.Item>
-
-          <Nav.Item className="button">
-            <Button
-              href="https://github.com/f3hint0la/portfolio-v1"
-              target="_blank"
-              className="github"
-            >
-              <CgGitFork style={{ fontSize: "18px" }} />{" "}
-              <AiFillStar style={{ fontSize: "18px" }} />
-            </Button>
           </Nav.Item>
         </Nav>
       </Navbar.Collapse>

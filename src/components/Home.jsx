@@ -1,8 +1,8 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineMail, AiOutlineDownload } from "react-icons/ai";
 import Typing from "./Typing";
 import "../styles/Home.css";
-// import About from "./About";
+import About from "./About/About";
 import Project from "./Project/Project";
 
 function Home() {
@@ -31,20 +31,25 @@ function Home() {
               artificial intelligence and love learning new skills.
             </p>
           </Col>
-          <Col md={7} className="email">
+          <Col md={7} className="home-btn">
             <Button
               href="mailto:fehintolakhumere@gmail.com"
               target="_blank"
-              className="email-btn"
+              className="btn"
             >
-              <AiOutlineMail className="email-icon" />
+              <AiOutlineMail className="btn-icon" />
               Get in Touch
+            </Button>
+
+            <Button href="" target="_blank" className="btn">
+              <AiOutlineDownload className="btn-icon" />
+              Download Resume
             </Button>
           </Col>
         </Row>
       </Container>
-      <Project />
       {/* <About /> */}
+      {/* <Project /> */}
     </Container>
   );
 }

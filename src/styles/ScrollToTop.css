@@ -1,0 +1,6 @@
+.scrollUp-btn {
+  position: fixed !important;
+  right: 16px !important;
+  bottom: -20% !important;
+  background-color: var(--green) !important;
+}

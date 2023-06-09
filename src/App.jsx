@@ -6,33 +6,28 @@ import Project from "./components/Project/Project";
 import About from "./components/About/About";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 function App() {
   const [load, updateLoad] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      updateLoad(false);
-    }, 1200);
-    return () => clearTimeout(timer);
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
   }, []);
 
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Navbar />
-        {/* <ScrollToTop /> */}
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="about" element={<About />}></Route>
-          <Route path="projects" element={<Project />}></Route>
-          {/* <Route path="*" element={<Navigate to="/" />}></Route> */}
-        </Routes>
-        <Footer />
-      </div>
-    </BrowserRouter>
+    <div className="App">
+      <Navbar />
+      <ScrollToTop />
+      <Home />
+      <About />
+      <Project />
+      <Footer />
+    </div>
   );
 }
 

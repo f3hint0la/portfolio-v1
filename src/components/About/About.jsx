@@ -10,7 +10,7 @@ function About() {
         <Row>
           <Col md={7} className="about-header">
             <h1 className="heading">
-              I'm <span>Fehintola</span>
+              About Me
             </h1>
           </Col>
           <Col md={8} className="about-decscription">

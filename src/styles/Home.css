@@ -53,20 +53,13 @@
   padding-left: 13px !important;
 }
 
-.email {
+.home-btn {
   font-size: 22px !important;
-  padding-left: 65px !important;
+  padding-left: 53px !important;
   cursor: pointer !important;
 }
 
-.email-icon {
-  color: var(--green) !important;
-  margin-right: 15px !important;
-  font-size: 22px !important;
-  cursor: pointer !important;
-}
-
-.email-btn {
+.btn {
   font-weight: bolder !important;
   line-height: 23px !important;
   background-color: transparent !important;
@@ -75,11 +68,19 @@
   padding: 20px !important;
   text-align: center !important;
   cursor: pointer !important;
+  /* float: left !important; */
 }
 
-.email-btn:hover {
+.btn:hover {
   background-color: var(--light-green) !important;
   transform: translate(-2px) !important;
+}
+
+.btn-icon {
+  color: var(--green) !important;
+  margin-right: 15px !important;
+  font-size: 22px !important;
+  cursor: pointer !important;
 }
 
 @media (max-width: 767px) {
