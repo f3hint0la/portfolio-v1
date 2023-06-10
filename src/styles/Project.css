@@ -31,11 +31,10 @@
 .project-card {
   padding-top: 30px !important;
   padding-bottom: 40px !important;
-  /* padding-left: 54px !important; */
-  padding-right: 43px !important;
+  padding-right: 0px !important;
   height: auto !important;
   min-height: 50vh !important;
-  padding-left: 65px !important;
+  /* padding-left: 65px !important; */
 }
 
 .project-card-view {
@@ -92,10 +91,9 @@
   box-shadow: none !important;
 }
 
-/* @media (max-width: 767px) {
-  .card-img-top {
-    border-radius: 10px !important;
-    width: 380px !important;
-    padding-left: 100px !important;
+@media (max-width: 767px) {
+  .project-card {
+    padding-left: 50px !important;
+    padding-right: 40px !important;
   }
-} */
+}

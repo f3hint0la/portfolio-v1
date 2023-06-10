@@ -5,7 +5,6 @@ import Home from "./components/Home";
 import Project from "./components/Project/Project";
 import About from "./components/About/About";
 import Footer from "./components/Footer";
-import ScrollToTop from "./components/ScrollToTop";
 import { useEffect, useState } from "react";
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <ScrollToTop />
       <Home />
       <About />
       <Project />

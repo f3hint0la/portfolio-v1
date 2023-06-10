@@ -2,8 +2,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import { AiOutlineMail, AiOutlineDownload } from "react-icons/ai";
 import Typing from "./Typing";
 import "../styles/Home.css";
-import About from "./About/About";
-import Project from "./Project/Project";
+import FadeIn from "./FadeIn";
 
 function Home() {
   return (

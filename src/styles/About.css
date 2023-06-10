@@ -34,8 +34,8 @@
   display: flex !important;
   flex-wrap: wrap !important;
   justify-content: center;
-  padding-bottom: 50px !important;
-  padding-left: 45px !important;
+  padding-bottom: 20px !important;
+  /* padding-left: 45px !important; */
 }
 
 .tech-icons {

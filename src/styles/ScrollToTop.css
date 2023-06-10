@@ -1,6 +1,20 @@
 .scrollUp-btn {
   position: fixed !important;
-  right: 16px !important;
-  bottom: -20% !important;
+  right: 5px !important;
+  bottom: 50px !important;
+  padding: 20 5px !important;
+  border: 0 !important;
+  border-radius: 6px !important;
   background-color: var(--green) !important;
+  opacity: 0.8 !important;
+  transform: 0.4s !important;
+}
+
+.scrollUp-btn:hover {
+  background-color: var(--light-green) !important;
+}
+
+.scrollUp-icon {
+  font-size: 25px !important;
+  /* color: var(--light-slate) !important; */
 }

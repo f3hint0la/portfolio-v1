@@ -1,16 +1,9 @@
-import { useState, useRef, useEFfect } from "react";
-import { motion, useScroll } from "framer-motion";
+import { useEFfect, useRef, useState } from "react";
 
-export default function FadeIn(props) {
+function FadeIn(props) {
   const [isVisible, setVisible] = useState(false);
-  const { scrollYProgress } = useViewportScroll({
-    target: "",
-  });
-  const scale = useTransform(scrollYProgress, [0, 1], [0.2, 2]);
-  return (
-    <div ref={targetRef}>
-      {props.children}
-      <div></div>
-    </div>
-  );
+
+  return <div></div>;
 }
+
+export default FadeIn;

@@ -112,14 +112,16 @@
   width: 100%;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .navbar {
     padding: 16px 32px !important;
     font-size: 22px !important;
+    backdrop-filter: blur(15px) !important;
   }
 
   .sticky {
     height: auto !important;
+    backdrop-filter: blur(15px) !important;
   }
 
   .nav-item {

@@ -7,7 +7,7 @@ function ScrollToTop() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 400) {
+      if (window.scrollY > 600) {
         setShowBtn(true);
       } else {
         setShowBtn(false);
@@ -24,8 +24,12 @@ function ScrollToTop() {
   };
 
   return (
-    <div className="scrollUp-btn">
-      {showBtn && <FaAngleUp onClick={scrollUp} />}
+    <div className="scrollUp">
+      {showBtn && (
+        <button className="scrollUp-btn">
+          <FaAngleUp className="scrollUp-icon" onClick={scrollUp} />
+        </button>
+      )}
     </div>
   );
 }

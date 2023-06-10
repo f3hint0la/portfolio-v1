@@ -1,5 +1,7 @@
 import { Container } from "react-bootstrap";
 import { AiOutlineMail, AiOutlineGithub, AiFillLinkedin } from "react-icons/ai";
+import { FaAngleUp } from "react-icons/fa";
+import ScrollToTop from "./ScrollToTop";
 import "../styles/Footer.css";
 
 function Footer() {
@@ -20,6 +22,7 @@ function Footer() {
           </a>
         </div>
       </div>
+      <ScrollToTop />
     </Container>
   );
 }
