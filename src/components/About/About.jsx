@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import "../../styles/About.css";
-import SkillSet from "./SkillSet";
+// import SkillSet from "./SkillSet";
 import TechStack from "./TechStack";
 
 function About() {
@@ -9,9 +9,7 @@ function About() {
       <Container className="about-content">
         <Row>
           <Col md={7} className="about-header">
-            <h1 className="heading">
-              About Me
-            </h1>
+            <h1 className="heading">About Me</h1>
           </Col>
           <Col md={8} className="about-decscription">
             <p className="about-body">
@@ -22,9 +20,7 @@ function About() {
               always looking for new opportunities.
               <br />
               <br />
-              <p>
-                Here are some tools & technologies I have been working with:{" "}
-              </p>
+              Here are some tools & technologies I have been working with:
             </p>
           </Col>
         </Row>
