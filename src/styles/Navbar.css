@@ -1,8 +1,9 @@
 .sticky {
-  background-color: var(--light-navy) !important;
+  /* background-color: var(--light-navy) !important; */
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 0px 0px 8px rgba(9, 5, 25, 0.1);
+  /* box-shadow: 0px 0px 0px 8px rgba(9, 5, 25, 0.1); */
   /* height: 65px !important; */
+  backdrop-filter: blur(15px) !important;
 }
 
 .navbar {
@@ -10,6 +11,7 @@
   transition: all 0.3s ease-out 0s !important;
   padding: 5px 30px !important;
   font-size: 19px !important;
+  overflow: hidden !important;
 }
 
 .navbar-toggler {

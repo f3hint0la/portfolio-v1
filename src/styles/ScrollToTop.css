@@ -2,10 +2,8 @@
   position: fixed !important;
   right: 5px !important;
   bottom: 50px !important;
-  width: 35px !important;
-  height: auto !important;
   border: 0 !important;
-  border-radius: 6px !important;
+  border-radius: 25px !important;
   background-color: var(--green) !important;
   opacity: 0.8 !important;
   transform: 0.4s !important;
@@ -19,9 +17,3 @@
   font-size: 25px !important;
   color: var(--navy) !important;
 }
-
-/* @media (max-width: 767px) {
-  .scrollUp-btn {
-    padding: 20 5px !important;
-  }
-} */
