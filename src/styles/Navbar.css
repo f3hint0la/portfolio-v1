@@ -1,8 +1,9 @@
 .sticky {
-  background-color: var(--light-green) !important;
+  background-color: var(--light-navy) !important;
   transition: all 0.3s ease-out 0s !important;
-  backdrop-filter: blur(15px) !important;
-  height: 65px !important;
+  /* backdrop-filter: blur(15px) !important; */
+  box-shadow: 0px 10px 0px 10px rgba(9, 5, 25, 0.1);
+  /* height: 65px !important; */
 }
 
 .navbar {
@@ -114,14 +115,12 @@
 
 @media only screen and (max-width: 768px) {
   .navbar {
-    padding: 16px 32px !important;
+    /* padding: 16px 32px !important; */
     font-size: 22px !important;
-    backdrop-filter: blur(15px) !important;
   }
 
   .sticky {
     height: auto !important;
-    backdrop-filter: blur(15px) !important;
   }
 
   .nav-item {
