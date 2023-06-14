@@ -8,10 +8,6 @@
   color: var(--green);
 }
 
-.about-header {
-  /* padding-top: 80px !important; */
-}
-
 .heading {
   font-size: 40px !important;
   color: var(--light-slate) !important;
@@ -33,7 +29,7 @@
 .skill-container {
   display: grid !important;
   grid-template-columns: repeat(3, 1fr) !important;
-  gap: 24px !important;
+  gap: 20px !important;
   padding-left: 10% !important;
 }
 
@@ -50,6 +46,7 @@
 .tech-icons {
   display: flex !important;
   flex-direction: column !important;
+  align-items: center;
   justify-content: center;
   margin: 20px !important;
   font-size: 40px !important;
@@ -83,4 +80,7 @@
     max-width: 100px !important;
     min-width: 100px !important;
   } */
+
+  .skill-container {
+  }
 }
