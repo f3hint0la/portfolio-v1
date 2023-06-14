@@ -34,7 +34,7 @@
   display: grid !important;
   grid-template-columns: repeat(3, 1fr) !important;
   gap: 24px !important;
-  padding-left: 18% !important;
+  padding-left: 12% !important;
 }
 
 /* .tech-icons {
@@ -83,8 +83,4 @@
     max-width: 100px !important;
     min-width: 100px !important;
   } */
-
-  .skill-container {
-    padding-left: 12% !important;
-  }
 }
