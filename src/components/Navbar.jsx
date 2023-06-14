@@ -80,7 +80,11 @@ function Navigation() {
           </Nav.Item>
 
           <Nav.Item>
-            <a href="#resume" onClick={() => updateExpanded(false)}>
+            <a
+              href="src/assets/resume.pdf"
+              target="_blank"
+              onClick={() => updateExpanded(false)}
+            >
               <CgFileDocument style={{ marginBottom: "2px" }} /> resume
             </a>
           </Nav.Item>

@@ -1,5 +1,6 @@
 .sticky {
-  background-color: var(--light-navy) !important;
+  /* background-color: var(--light-navy) !important; */
+  background-color: #101010 !important;
   transition: all 0.3s ease-out 0s !important;
   height: 65px !important;
 }

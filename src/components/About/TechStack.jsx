@@ -4,13 +4,12 @@ import { FaReact } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
 import { TbSql } from "react-icons/tb";
-import { TbBrandVscode } from "react-icons/tb";
 import { DiCss3, DiBootstrap, DiPython, DiGit } from "react-icons/di";
 
 const TechStack = () => {
   return (
     <Container fluid>
-      <Row className="skillset">
+      <Row className="skill-container">
         <Col md={2} className="tech-icons">
           <AiFillHtml5 />
         </Col>
@@ -41,10 +40,6 @@ const TechStack = () => {
 
         <Col md={2} className="tech-icons">
           <TbSql />
-        </Col>
-
-        <Col md={2} className="tech-icons">
-          <TbBrandVscode />
         </Col>
 
         <Col md={2} className="tech-icons">
