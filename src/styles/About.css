@@ -34,7 +34,7 @@
   display: grid !important;
   grid-template-columns: repeat(3, 1fr) !important;
   gap: 24px !important;
-  padding-left: 12% !important;
+  padding-left: 10% !important;
 }
 
 /* .tech-icons {
