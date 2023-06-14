@@ -82,5 +82,6 @@
   } */
 
   .skill-container {
+    padding-left: 0 !important;
   }
 }
