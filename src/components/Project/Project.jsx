@@ -39,7 +39,7 @@ function Project() {
                 title="Tic Tac Toe Game"
                 description="A tic tac toe game."
                 githubLink="https://github.com/f3hint0la/tic-tac-toe"
-                demoLink=""
+                demoLink="http://tic-tac-toe-f3hint0la.vercel.app/"
                 techStack="ReactJS"
               />
             </Col>
@@ -61,7 +61,7 @@ function Project() {
                 techStack="JavaScript, HTML / CSS"
               />
             </Col>
-            <Col md={4} className="project-card">
+            {/* <Col md={4} className="project-card">
               <PCard
                 title="E-commerce website"
                 description="An E-commerce website."
@@ -69,7 +69,7 @@ function Project() {
                 demoLink=""
                 techStack="JavaScript, HTML / CSS"
               />
-            </Col>
+            </Col> */}
           </Row>
         </FadeIn>
       </Container>
