@@ -2,7 +2,6 @@ import styles from "../styles/navbar.module.scss";
 import { Link, NavLink } from "react-router-dom";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
-import { MdLightMode } from "react-icons/md";
 import { useState } from "react";
 
 const NavBar = () => {
