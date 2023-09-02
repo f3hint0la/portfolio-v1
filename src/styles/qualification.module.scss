@@ -94,6 +94,10 @@
     .qualificationContent {
       grid-template-columns: auto;
       row-gap: 40px;
+
+      .category {
+        width: 400px;
+      }
     }
   }
 }
