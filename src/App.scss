@@ -1,0 +1,60 @@
+@import "./styles/global.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.app {
+  background: $background;
+  min-height: 100vh;
+}
+
+.scrollUp {
+  .scrollBtn {
+    background-color: $primary-color;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    height: 38px;
+    width: 38px;
+    border-radius: 6px;
+    border: 0;
+    box-shadow: 0 4px 5px 3px rgba(53, 136, 94, 0.459);
+    text-align: center;
+    opacity: 0.8;
+    transition: 0.4s;
+
+    .icon {
+      font-size: 25px;
+      color: $black;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}

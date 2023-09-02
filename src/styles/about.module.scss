@@ -1,0 +1,45 @@
+@import "./global.scss";
+
+.about {
+  color: $secondary-color;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 40px;
+
+  .aboutContent {
+    overflow-x: hidden;
+
+    h1 {
+      font-size: 40px;
+      color: $text-color;
+    }
+
+    h3 {
+      color: $secondary-color;
+      font-size: 16px;
+    }
+
+    .body {
+      padding-top: 20px;
+      font-size: 15px;
+      line-height: 1.5;
+      text-align: center;
+      margin: 0px 250px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    padding-top: 100px;
+    justify-content: center;
+    margin: auto;
+
+    .aboutContent {
+      .body {
+        margin: auto;
+        margin: 0px 20px;
+      }
+    }
+  }
+}

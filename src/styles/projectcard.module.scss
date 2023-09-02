@@ -1,0 +1,110 @@
+@import "./global.scss";
+
+.projectCard {
+  margin: auto;
+  overflow: hidden;
+  width: 80%;
+  height: auto;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+
+  .content {
+    margin-bottom: 40px;
+    overflow: hidden;
+    height: 550px;
+
+    .cardView {
+      overflow: hidden;
+      margin: auto;
+      height: 100%;
+      width: 380px;
+      background-color: $black;
+      border-radius: 8px;
+      box-shadow: 0 10px 15px -3px $nav-color;
+
+      .lazy-load-image-background.blur {
+        filter: blur(15px);
+
+        & > img {
+          opacity: 0;
+        }
+
+        &.lazy-load-image-loaded {
+          filter: blur(0);
+          transition: filter 0.3s;
+
+          & > img {
+            opacity: 1;
+            transition: opacity 0.3s;
+          }
+        }
+      }
+
+      .details {
+        padding: 30px 20px;
+        text-align: left;
+
+        h3 {
+          font-size: 18px;
+          margin-top: 12px;
+          line-height: 22px;
+          color: $text-color;
+          //   color: $secondary-color;
+        }
+
+        .description {
+          color: $secondary-color;
+          font-size: 14px;
+          line-height: 21px;
+        }
+
+        .language {
+          margin-top: 12px;
+          font-size: 16px;
+          color: $text-color;
+          margin-right: 20px;
+        }
+
+        .actions {
+          margin-top: 12px;
+          display: flex;
+          gap: 30px;
+
+          span {
+            display: flex;
+            gap: 8px;
+            font-size: 14px;
+            justify-content: center;
+            cursor: pointer;
+
+            &:hover {
+              opacity: 0.75;
+              transform: scale(1.1);
+              transition-duration: 500ms;
+              transition: all;
+            }
+
+            a {
+              color: $secondary-color;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projectCard {
+    padding-top: 70px;
+    grid-template-columns: auto;
+
+    .cardView {
+    }
+  }
+}

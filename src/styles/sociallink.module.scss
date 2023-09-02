@@ -1,0 +1,28 @@
+@import "./global.scss";
+
+.links {
+  display: grid;
+  grid-template-columns: max-content;
+  row-gap: 30px;
+  position: fixed;
+  top: 48%;
+  left: 60px;
+  transform: translateY(-50%);
+
+  a {
+    font-size: 20px;
+    color: $text-color;
+    margin-top: 20px;
+    transition: 0.2s ease-in;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .links {
+    display: none;
+  }
+}
