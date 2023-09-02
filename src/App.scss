@@ -17,6 +17,7 @@ body {
 .app {
   background: $background;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .scrollUp {

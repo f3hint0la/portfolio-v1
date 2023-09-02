@@ -5,6 +5,7 @@
 }
 
 nav {
+  position: sticky;
   display: flex;
   background-color: $nav-color;
   align-items: center;

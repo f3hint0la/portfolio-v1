@@ -76,8 +76,14 @@
   .skills {
     padding-top: 70px;
 
-    // ul {
-      //   grid-template-columns: auto;
-    // }
+    .skillsContent {
+      p {
+        margin: auto;
+      }
+
+      ul {
+        grid-template-columns: auto;
+      }
+    }
   }
 }
