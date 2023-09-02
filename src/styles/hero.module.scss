@@ -66,21 +66,25 @@
 @media screen and (max-width: 768px) {
   .home {
     margin: 0px 70px;
-    // margin: auto;
+    margin: auto;
 
     .container {
       flex-direction: column;
+      text-align: left;
 
       .left {
-        text-align: center;
+        text-align: left;
 
         .header {
-          text-align: center;
+          text-align: left;
           margin: auto;
         }
 
         .body {
-          margin: auto;
+          // margin: auto;
+          margin-block-start: 6px;
+          padding-left: 28px;
+          text-align: left;
         }
       }
 
