@@ -81,8 +81,10 @@
         margin: auto;
       }
 
-      ul {
-        grid-template-columns: repeat(2, 1fr);
+      .techStack {
+        ul {
+          grid-template-columns: repeat(2, 1fr);
+        }
       }
     }
   }

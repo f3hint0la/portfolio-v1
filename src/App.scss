@@ -48,7 +48,13 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 76p7x) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 480px) {
   html {
     font-size: 50%;
   }
