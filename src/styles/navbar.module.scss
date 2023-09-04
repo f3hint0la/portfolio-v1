@@ -6,6 +6,7 @@
 
 nav {
   display: flex;
+  flex-wrap: wrap;
   background-color: $nav-color;
   align-items: center;
   justify-content: space-between;
@@ -21,6 +22,7 @@ nav {
 
   ul {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-right: 150px;

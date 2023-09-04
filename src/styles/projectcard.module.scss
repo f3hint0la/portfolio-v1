@@ -31,6 +31,7 @@
 
         & > img {
           opacity: 0;
+          max-width: 100%;
         }
 
         &.lazy-load-image-loaded {
@@ -40,6 +41,7 @@
           & > img {
             opacity: 1;
             transition: opacity 0.3s;
+            max-width: 100%;
           }
         }
       }
@@ -107,6 +109,10 @@
     .content {
       .cardView {
         width: 350px;
+
+        .lazy-load-image-background {
+          max-width: 100%;
+        }
       }
     }
   }

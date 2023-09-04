@@ -12,6 +12,8 @@ html {
 
 body {
   overflow-x: hidden;
+  -webkit-overflow-scrolling: none;
+  overscroll-behavior: none;
 }
 
 .app {
