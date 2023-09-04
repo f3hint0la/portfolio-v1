@@ -30,6 +30,10 @@ const ProjectCard = () => {
                 placeholderSrc={img}
                 height={350}
                 width="100%"
+                style={{
+                  backgroundPosition: "center",
+                  backgroundSize: "cover",
+                }}
               />
 
               <div className={styles.details}>

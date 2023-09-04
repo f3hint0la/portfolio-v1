@@ -26,22 +26,22 @@
       border-radius: 8px;
       box-shadow: 0 10px 15px -3px $nav-color;
 
-      .lazy-load-image-background.blur {
-        filter: blur(15px);
-
-        & > img {
-          opacity: 0;
-          max-width: 100%;
-        }
-
-        &.lazy-load-image-loaded {
-          filter: blur(0);
-          transition: filter 0.3s;
+      .lazy-load-image-background {
+        &.blur {
+          filter: blur(15px);
 
           & > img {
-            opacity: 1;
-            transition: opacity 0.3s;
-            max-width: 100%;
+            opacity: 0;
+          }
+
+          &.lazy-load-image-loaded {
+            filter: blur(0);
+            transition: filter 0.3s;
+
+            & > img {
+              opacity: 1;
+              transition: opacity 0.3s;
+            }
           }
         }
       }
@@ -109,10 +109,6 @@
     .content {
       .cardView {
         width: 350px;
-
-        .lazy-load-image-background {
-          max-width: 100%;
-        }
       }
     }
   }

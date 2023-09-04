@@ -8,11 +8,12 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: none;
+  overflow-y: none;
 }
 
 body {
   overflow-x: hidden;
-  -webkit-overflow-scrolling: none;
   overscroll-behavior: none;
 }
 
