@@ -78,12 +78,16 @@
 
     .skillsContent {
       p {
-        margin: auto;
+        margin: auto 10px;
       }
 
       .techStack {
         ul {
           grid-template-columns: repeat(2, 1fr);
+
+          p {
+            margin-bottom: 20px;
+          }
         }
       }
     }

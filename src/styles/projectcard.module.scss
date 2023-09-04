@@ -103,5 +103,11 @@
   .projectCard {
     padding-top: 70px;
     grid-template-columns: auto;
+
+    .content {
+      .cardView {
+        width: 350px;
+      }
+    }
   }
 }

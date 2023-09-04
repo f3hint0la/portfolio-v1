@@ -97,6 +97,30 @@
 
       .category {
         width: 300px;
+
+        .categoryTitle {
+          font-size: 18px;
+        }
+
+        .categoryItem {
+          .timelineDate {
+            font-size: 13px;
+          }
+
+          h3 {
+            font-size: 17px;
+          }
+
+          .subtitle {
+            font-size: 15px;
+          }
+
+          p {
+            margin: 6px 0;
+            font-size: 14px;
+            font-style: italic;
+          }
+        }
       }
     }
   }
