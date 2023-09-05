@@ -20,7 +20,7 @@ function About() {
           <span>freeCodeCamp</span>. I am constantly learning and expanding my
           skillset. When I'm not coding, I'm either watching animated movies or
           binging on the latest Korean dramas or escaping reality through books,
-          lol. I'm also in love with the MCU. I'm currently working on various
+          lol. I'm currently working on various
           frontend projects to advance and and improve my skills.
         </p>
         <Button />
