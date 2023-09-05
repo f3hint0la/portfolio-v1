@@ -35,6 +35,7 @@ nav {
       padding: 10px 20px;
 
       a {
+        position: fixed;
         color: $text-color;
         font-size: 18px;
         font-weight: 500;
@@ -86,10 +87,8 @@ nav {
 
 @media screen and (max-width: 768px) {
   nav {
-    padding: 20px 40px;
+    padding: 0px 30px;
     margin: auto;
-    // position: sticky;
-    // top: 0;
 
     .brand {
       margin: 0px;
