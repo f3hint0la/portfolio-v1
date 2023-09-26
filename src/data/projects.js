@@ -7,8 +7,8 @@ export const projects = [
       "An online tool for generating password.",
     language: "ReactJS",
     code: "Source Code",
-    codeLink: "https://github.com/f3hint0la/xplora",
-    viewLink: "https://xxplora.netlify.app/",
+    codeLink: "https://github.com/f3hint0la/password-generator",
+    viewLink: "https://password-generator-f3hint0la.vercel.app/",
     view: "View Site",
   },
   {
