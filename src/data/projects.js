@@ -1,6 +1,18 @@
 export const projects = [
   {
     id: 1,
+    img: "https://res.cloudinary.com/dhfaovke9/image/upload/v1695725895/project%20images/password-gen.png",
+    title: "Password Generator",
+    description:
+      "An online tool for generating password.",
+    language: "ReactJS",
+    code: "Source Code",
+    codeLink: "https://github.com/f3hint0la/xplora",
+    viewLink: "https://xxplora.netlify.app/",
+    view: "View Site",
+  },
+  {
+    id: 2,
     img: "https://res.cloudinary.com/dhfaovke9/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1693223601/project%20images/xplora.png",
     title: "Xplora",
     description:
@@ -12,7 +24,7 @@ export const projects = [
     view: "View Site",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://res.cloudinary.com/dhfaovke9/image/upload/v1693223998/project%20images/weather-app.png",
     title: "Elementicon",
     description:
@@ -24,7 +36,7 @@ export const projects = [
     view: "View Site",
   },
   {
-    id: 3,
+    id: 4,
     img: "https://res.cloudinary.com/dhfaovke9/image/upload/v1693223956/project%20images/tic-tac-toe.png",
     title: "Tic Tac Toe Game",
     description: "Simple tic tac toe game",
@@ -32,17 +44,6 @@ export const projects = [
     code: "Source Code",
     codeLink: "https://github.com/f3hint0la/tic-tac-toe",
     viewLink: "http://tic-tac-toe-f3hint0la.vercel.app/",
-    view: "View Site",
-  },
-  {
-    id: 4,
-    img: "https://res.cloudinary.com/dhfaovke9/image/upload/v1693223913/project%20images/calculator.png",
-    title: "Calculator",
-    description: "Simple calculator aaplication.",
-    language: "JavaScript + HTML + CSS",
-    code: "Source Code",
-    codeLink: "https://github.com/f3hint0la/javascript-weather-app",
-    viewLink: "https://f3hint0la.github.io/calculator/",
     view: "View Site",
   },
   {

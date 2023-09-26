@@ -32,7 +32,7 @@ function Skills() {
       color: "#2965f1",
     },
     {
-      id: 4,
+      id: 3,
       icon: <FaSass />,
       text: "Sass",
       color: "#c76494",
@@ -101,7 +101,7 @@ function Skills() {
       id: 14,
       icon: <SiVercel />,
       text: "Vercel",
-      color: "#000",
+      color: "#fff",
     },
     {
       id: 15,
@@ -125,7 +125,7 @@ function Skills() {
         <div className={styles.techStack}>
           <ul>
             {skills.map(({ id, icon, text, color }) => (
-              <li id={id}>
+              <li key={id} id={id}>
                 <div className={styles.stackContent}>
                   <div className={styles.skillsIcon}>
                     {React.cloneElement(icon, { color: color, size: 28 })}

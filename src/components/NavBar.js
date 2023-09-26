@@ -21,7 +21,7 @@ const NavBar = () => {
           <li>
             <NavLink
               to="/"
-              smooth={true}
+              smooth="true"
               style={({ isActive }) => {
                 return { color: isActive ? "#64ffda" : "" };
               }}
@@ -32,8 +32,8 @@ const NavBar = () => {
           <li>
             <NavLink
               to="about"
-              spy={true}
-              smooth={true}
+              spy="true"
+              smooth="true"
               style={({ isActive }) => {
                 return { color: isActive ? "#64ffda" : "" };
               }}
@@ -44,8 +44,8 @@ const NavBar = () => {
           <li>
             <NavLink
               to="project"
-              spy={true}
-              smooth={true}
+              spy="true"
+              smooth="true"
               style={({ isActive }) => {
                 return { color: isActive ? "#64ffda" : "" };
               }}
@@ -56,8 +56,8 @@ const NavBar = () => {
           <li>
             <NavLink
               to="contact"
-              spy={true}
-              smooth={true}
+              spy="true"
+              smooth="true"
               style={({ isActive }) => {
                 return { color: isActive ? "#64ffda" : "" };
               }}

@@ -7,6 +7,7 @@
 nav {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   background-color: $nav-color;
   align-items: center;
   justify-content: space-between;
@@ -91,24 +92,26 @@ nav {
     padding: 20px 20px;
     margin: auto;
     background-color: $black;
+    position: fixed;
+    z-index: 1000;
 
     .brand {
       margin: 0px;
     }
 
     ul {
-      position: absolute;
+      position: fixed;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
       margin-right: 0px;
       top: 70px;
-      right: -45%;
+      right: -100%;
       width: 45%;
       height: 100vh;
-      background: $black;
-      background-color: $nav-color;
+      background-color: $black;
+      z-index: 1000;
       transition: transform 0.35s ease-in-out;
 
       &.active {

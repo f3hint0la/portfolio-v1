@@ -21,8 +21,8 @@ const ProjectCard = () => {
           viewLink,
           view,
         }) => (
-          <div className={styles.content}>
-            <div className={styles.cardView} key={id}>
+          <div className={styles.content} key={id}>
+            <div className={styles.cardView}>
               <LazyLoadImage
                 src={img}
                 alt={title}
